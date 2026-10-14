@@ -1,0 +1,21 @@
+[project]
+name = "paperscan"
+version = "0.1.0"
+description = "Turn phone photos of paper pages into a clean, straightened PDF, optionally aligned to a template PDF."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "opencv-python-headless>=4.5",
+    "pillow>=10.1",
+    "pillow-heif>=0.16",
+    "pymupdf>=1.23",
+    "tqdm>=4.66",
+]
+
+[project.scripts]
+paperscan = "paperscan.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"

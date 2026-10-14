@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.egg-info/
+.DS_Store
+.ruff_cache/
+
+paperscan-out/
+scans-out/
+*.heic
+*.HEIC
+*.jpg
+*.JPG
+*.jpeg
+*.png
+*.pdf
+midterm-answers/
